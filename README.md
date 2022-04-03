@@ -1,6 +1,6 @@
 # justinlouau.github.io
 
-##Technology Stack
+## Technology Stack
 - Github Pages
 - Jekyll
 
