@@ -3,7 +3,7 @@ title_left    : "Justin Lou"
 title_right   : "" # default: ""
 description   : "a web blog on science, technology, and security"
 keywords      : ""
-url           : https://justinlou.me # site url
+url           : https://justinlouau.github.io # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
