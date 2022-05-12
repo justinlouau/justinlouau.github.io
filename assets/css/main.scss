@@ -1,0 +1,396 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "main";
+
+.go-home {
+    text-align: center;
+  }
+
+/* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay */ /*************************************************************/
+.glitch {
+    position: relative;
+    animation: glitch 2s steps(100) infinite;
+    //background-color:  	#181818;
+    //color: grey;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    1% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    2% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    3% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    4% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    5% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    6% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    7% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    8% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    9% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    10% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    11% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    12% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    13% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    14% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    15% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    16% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    17% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    18% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    19% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    20% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    21% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    22% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    23% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    24% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    25% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    26% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    27% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    28% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    29% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    30% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    31% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    32% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    33% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    34% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    35% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    36% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    37% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    38% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    39% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    40% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    41% {
+      text-shadow: 50px 0 0 blue, -50px 0 0 lime;
+    }
+    42% {
+      text-shadow: 0 0 0 blue, 0 0 0 lime;
+    }
+    43% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    44% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    45% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    46% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    47% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    48% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    49% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    50% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    51% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    52% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    53% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    54% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    55% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    56% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    57% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    58% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    59% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    60% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    61% {
+      text-shadow: 30px 0 0 red, -30px 0 0 lime;
+    }
+    62% {
+      text-shadow: 0 0 0 red, 0 0 0 lime;
+    }
+    63% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+    64% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+    65% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+    66% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+    67% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    68% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    69% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    70% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    71% {
+      text-shadow: 70px 0 0 red, -70px 0 0 blue;
+    }
+    72% {
+      text-shadow: 0 0 0 red, 0 0 0 blue;
+    }
+    73% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    74% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    75% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    76% {
+      text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+    77% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    78% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    79% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    80% {
+      text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+    81% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    82% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    83% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    84% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    85% {
+      text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+    86% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    87% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    88% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    89% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    90% {
+      text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+    91% {
+      text-shadow: 60px 0 0 lime, -60px 0 0 blue;
+    }
+    92% {
+      text-shadow: 0 0 0 lime, 0 0 0 blue;
+    }
+    92% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    93% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    94% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    95% {
+      text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+    96% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    97% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    98% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    99% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+    100% {
+      text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+  }
+
+
+  /* GRID CSS CODE 
+  https://hacks.mozilla.org/2017/04/replace-bootstrap-layouts-with-css-grid/
+  */
+
+  /* ROW */
+  .row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .col-xs-12 {grid-column: span 12}
+  .col-xs-11 {grid-column: span 11}
+  .col-xs-10 {grid-column: span 10}
+  .col-xs-9 {grid-column: span 9}
+  .col-xs-8 {grid-column: span 8}
+  .col-xs-7 {grid-column: span 7}
+  .col-xs-6 {grid-column: span 6}
+  .col-xs-5 {grid-column: span 5}
+  .col-xs-4 {grid-column: span 4}
+  .col-xs-3 {grid-column: span 3}
+  .col-xs-2 {grid-column: span 2}
+  .col-xs-1 {grid-column: span 1}
+  
+  @media (min-width: 768px) {
+    .col-sm-12 {grid-column: span 12}
+    .col-sm-11 {grid-column: span 11}
+    .col-sm-10 {grid-column: span 10}
+    .col-sm-9 {grid-column: span 9}
+    .col-sm-8 {grid-column: span 8}
+    .col-sm-7 {grid-column: span 7}
+    .col-sm-6 {grid-column: span 6}
+    .col-sm-5 {grid-column: span 5}
+    .col-sm-4 {grid-column: span 4}
+    .col-sm-3 {grid-column: span 3}
+    .col-sm-2 {grid-column: span 2}
+    .col-sm-1 {grid-column: span 1}
+  }
+  
+  @media (min-width: 992px) {
+    .col-md-12 {grid-column: span 12}
+    .col-md-11 {grid-column: span 11}
+    .col-md-10 {grid-column: span 10}
+    .col-md-9 {grid-column: span 9}
+    .col-md-8 {grid-column: span 8}
+    .col-md-7 {grid-column: span 7}
+    .col-md-6 {grid-column: span 6}
+    .col-md-5 {grid-column: span 5}
+    .col-md-4 {grid-column: span 4}
+    .col-md-3 {grid-column: span 3}
+    .col-md-2 {grid-column: span 2}
+    .col-md-1 {grid-column: span 1}
+  }
+  
+  @media (min-width: 1200px) {
+    .col-lg-12 {grid-column: span 12}
+    .col-lg-11 {grid-column: span 11}
+    .col-lg-10 {grid-column: span 10}
+    .col-lg-9 {grid-column: span 9}
+    .col-lg-8 {grid-column: span 8}
+    .col-lg-7 {grid-column: span 7}
+    .col-lg-6 {grid-column: span 6}
+    .col-lg-5 {grid-column: span 5}
+    .col-lg-4 {grid-column: span 4}
+    .col-lg-3 {grid-column: span 3}
+    .col-lg-2 {grid-column: span 2}
+    .col-lg-1 {grid-column: span 1}
+  }
