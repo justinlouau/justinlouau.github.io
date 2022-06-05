@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: https://www.justinlou.me/sitemap/sitemap-index.xml
-Host: https://www.justinlou.me
